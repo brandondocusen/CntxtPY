@@ -44,7 +44,7 @@ git clone https://github.com/brandondocusen/CntxtPY.git
 cd CntxtPY
 
 # Install required packages
-pip install networkx matplotlib ast typing-extensions
+pip install networkx matplotlib typing-extensions
 
 # Run the analyzer
 python cntxtpy.py

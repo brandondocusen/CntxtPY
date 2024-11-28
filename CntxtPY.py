@@ -462,7 +462,7 @@ class PythonCodeKnowledgeGraph:
 
     def save_graph(self, output_path: str):
         """Save the knowledge graph in standard JSON format."""
-        data = json_graph.node_link_data(self.graph, edges="links")
+        data = json_graph.node_link_data(self.graph)
         metadata = {
             "stats": {
                 "total_files": self.total_files,
